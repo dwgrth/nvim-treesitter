@@ -19,7 +19,7 @@
 ((identifier) @constant.builtin
   (#any-of? @constant.builtin
     ; https://docs.python.org/3/library/constants.html
-    "NotImplemented" "Ellipsis" "quit" "exit" "copyright" "credits" "license"))
+    "NotImplemented" "Ellipsis"))
 
 "_" @character.special ; match wildcard
 
